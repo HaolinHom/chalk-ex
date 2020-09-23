@@ -1,13 +1,13 @@
 const std = require('../index');
 const color = require('../config/color');
 
-std('foo bar');
-std.log('foo bar');
-std.info('foo bar');
-std.success('foo bar');
-std.warn('foo bar');
-std.error('foo bar');
-std.label('test')('foobar');
+std('Hello world!');
+std.log('Hello world!');
+std.info('Hello world!');
+std.success('Hello world!');
+std.warn('Hello world!');
+std.error('Hello world!');
+std.label('test')('Hello world!');
 
 console.log(`
 `);
