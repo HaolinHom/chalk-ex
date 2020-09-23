@@ -1,19 +1,19 @@
-# std-logger
+# std-terminal-logger
 
 An easy use console print terminal with string styling.
 
 ## Installation
 
 ```bash
-npm i std-logger
+npm i std-terminal-logger
 ```
 
 ## Usage
 
 ```javascript
-const std = require('std-logger');
+const std = require('std-terminal-logger');
 
-std('std-logger');
+std('Hello world!');
 ```
 
 ### use with provide additional preset label
@@ -25,17 +25,17 @@ std('std-logger');
 * error
 
 ```javascript
-const std = require('std-logger');
+const std = require('std-terminal-logger');
 
-std.log('std-logger');
+std.log('Hello world!');
 ```
 
 ### use with custom label
 
 ```javascript
-const std = require('std-logger');
+const std = require('std-terminal-logger');
 
-std.label('custom_label')('std-logger');
+std.label('custom_label')('Hello world!');
 ```
 
 ### use with additional preset color
@@ -63,19 +63,19 @@ std.label('custom_label')('std-logger');
 * black
 
 ```javascript
-const std = require('std-logger');
+const std = require('std-terminal-logger');
 
-std.red('std-logger');
+std.red('Hello world!');
 ```
 
 ### freely combine and use `label` and `color`
 
 ```javascript
-const std = require('std-logger');
+const std = require('std-terminal-logger');
 
-std.info.green('std-logger');
+std.info.green('Hello world!');
 
-std.orange.log('std-logger');
+std.orange.log('Hello world!');
 
-std.label('label').blue('std-logger');
+std.label('label').blue('Hello world!');
 ```

@@ -1,5 +1,5 @@
 {
-  "name": "std-logger",
+  "name": "std-terminal-logger",
   "version": "1.0.0",
   "description": "An easy use console print terminal with string styling.",
   "main": "index.js",
@@ -8,6 +8,8 @@
     "url": "git+https://github.com/HaolinHom/std-logger.git"
   },
   "keywords": [
+    "std-terminal-logger",
+    "terminal-logger",
     "std-logger",
     "std-log",
     "stdlog",
