@@ -1,0 +1,27 @@
+{
+  "name": "std-logger",
+  "version": "1.0.0",
+  "description": "An easy use console print terminal with string styling.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HaolinHom/std-logger.git"
+  },
+  "keywords": [
+    "std-logger",
+    "std-log",
+    "stdlog",
+    "std",
+    "logger",
+    "log"
+  ],
+  "author": "Haolin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/HaolinHom/std-logger/issues"
+  },
+  "homepage": "https://github.com/HaolinHom/std-logger#readme",
+  "dependencies": {
+    "chalk": "^4.1.0"
+  }
+}
