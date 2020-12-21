@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HaolinHom/std-logger.git"
+    "url": "git+https://github.com/HaolinHom/std-terminal-logger.git"
   },
   "keywords": [
     "std-terminal-logger",
@@ -20,9 +20,9 @@
   "author": "Haolin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HaolinHom/std-logger/issues"
+    "url": "https://github.com/HaolinHom/std-terminal-logger/issues"
   },
-  "homepage": "https://github.com/HaolinHom/std-logger#readme",
+  "homepage": "https://github.com/HaolinHom/std-terminal-logger#readme",
   "dependencies": {
     "chalk": "^4.1.0"
   }
