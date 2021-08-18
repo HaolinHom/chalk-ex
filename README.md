@@ -4,19 +4,35 @@ An easy use console print terminal with string styling.
 
 ## Installation
 
+pnpm
+
 ```bash
-npm i std-terminal-logger
+pnpm add std-terminal-logger chalk
+```
+
+npm
+
+```bash
+npm i std-terminal-logger chalk
+```
+
+yarn
+
+```bash
+yarn add std-terminal-logger chalk
 ```
 
 ## Usage
 
 ```javascript
-const std = require('std-terminal-logger');
+import { log, label, text } from 'std-terminal-logger';
 
-std('Hello world!');
+log(label.green('Hello world!'), text.orange('Hello world!'));
 ```
 
-### use with provide additional preset label
+![](https://raw.githubusercontent.com/HaolinHom/pic-go-bag/std-terminal-logger/usage-hello-world.png)
+
+### use with the preset label
 
 * log
 * info
@@ -25,20 +41,14 @@ std('Hello world!');
 * error
 
 ```javascript
-const std = require('std-terminal-logger');
+import { log, label } from 'std-terminal-logger';
 
-std.log('Hello world!');
+log(label.log, label.info, label.success, label.warn, label.error);
 ```
 
-### use with custom label
+![](https://raw.githubusercontent.com/HaolinHom/pic-go-bag/std-terminal-logger/usage-default-label.png)
 
-```javascript
-const std = require('std-terminal-logger');
-
-std.label('custom_label')('Hello world!');
-```
-
-### use with additional preset color
+### use with the preset color
 
 * red
 * pink
@@ -63,19 +73,13 @@ std.label('custom_label')('Hello world!');
 * black
 
 ```javascript
-const std = require('std-terminal-logger');
+import { log, label, text } from 'std-terminal-logger';
 
-std.red('Hello world!');
+log(label.green('Foo'), text.green('bar'));
 ```
 
-### freely combine and use `label` and `color`
+![](https://raw.githubusercontent.com/HaolinHom/pic-go-bag/std-terminal-logger/usage-label-text.png)
 
-```javascript
-const std = require('std-terminal-logger');
+All color:
 
-std.info.green('Hello world!');
-
-std.orange.log('Hello world!');
-
-std.label('label').blue('Hello world!');
-```
+![](https://raw.githubusercontent.com/HaolinHom/pic-go-bag/std-terminal-logger/usage-all-color.png)
