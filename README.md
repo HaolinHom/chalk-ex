@@ -2,6 +2,8 @@
 
 An easy use console print terminal with string styling with [chalk](https://github.com/chalk/chalk).
 
+This package is now pure ESM, Require Node.js ^12.20.0 || ^14.13.1 || >=16.0.0.
+
 ## Installation
 
 pnpm
