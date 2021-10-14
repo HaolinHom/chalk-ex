@@ -1,7 +1,7 @@
 {
-  "name": "std-terminal-logger",
-  "version": "2.0.0",
-  "description": "An easy use console print terminal with string styling.",
+  "name": "chalk-ex",
+  "version": "1.0.0",
+  "description": "An easy use console print terminal with string styling with chalk.",
   "type": "module",
   "exports": "./lib/index.js",
   "types": "lib/index.d.ts",
@@ -16,24 +16,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/HaolinHom/std-terminal-logger.git"
+    "url": "git+https://github.com/HaolinHom/chalk-ex.git"
   },
   "keywords": [
-    "std-terminal-logger",
-    "terminal-logger",
-    "std-logger",
-    "std-log",
-    "stdlog",
-    "std",
-    "logger",
-    "log"
+    "chalk-ex",
+    "chalk"
   ],
   "author": "Haolin",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/HaolinHom/std-terminal-logger/issues"
+    "url": "https://github.com/HaolinHom/chalk-ex/issues"
   },
-  "homepage": "https://github.com/HaolinHom/std-terminal-logger#readme",
+  "homepage": "https://github.com/HaolinHom/chalk-ex#readme",
   "devDependencies": {
     "@babel/core": "^7.15.0",
     "@babel/preset-env": "^7.15.0",

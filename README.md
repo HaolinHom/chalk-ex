@@ -1,33 +1,33 @@
-# std-terminal-logger
+# chalk-ex
 
-An easy use console print terminal with string styling.
+An easy use console print terminal with string styling with [chalk](https://github.com/chalk/chalk).
 
 ## Installation
 
 pnpm
 
 ```bash
-pnpm add std-terminal-logger chalk
+pnpm add chalk chalk-ex
 ```
 
 npm
 
 ```bash
-npm i std-terminal-logger chalk
+npm i chalk chalk-ex
 ```
 
 yarn
 
 ```bash
-yarn add std-terminal-logger chalk
+yarn add chalk chalk-ex
 ```
 
 ## Usage
 
 ```javascript
-import { log, label, text } from 'std-terminal-logger';
+import { label, text } from 'chalk-ex';
 
-log(label.green('Hello world!'), text.orange('Hello world!'));
+console.log(label.green('Hello world!'), text.orange('Hello world!'));
 ```
 
 ![](https://raw.githubusercontent.com/HaolinHom/pic-go-bag/std-terminal-logger/usage-hello-world.png)
@@ -41,9 +41,9 @@ log(label.green('Hello world!'), text.orange('Hello world!'));
 * error
 
 ```javascript
-import { log, label } from 'std-terminal-logger';
+import { label } from 'chalk-ex';
 
-log(label.log, label.info, label.success, label.warn, label.error);
+console.log(label.log, label.info, label.success, label.warn, label.error);
 ```
 
 ![](https://raw.githubusercontent.com/HaolinHom/pic-go-bag/std-terminal-logger/usage-default-label.png)
@@ -73,9 +73,9 @@ log(label.log, label.info, label.success, label.warn, label.error);
 * black
 
 ```javascript
-import { log, label, text } from 'std-terminal-logger';
+import { label, text } from 'chalk-ex';
 
-log(label.green('Foo'), text.green('bar'));
+console.log(label.green('Foo'), text.green('bar'));
 ```
 
 ![](https://raw.githubusercontent.com/HaolinHom/pic-go-bag/std-terminal-logger/usage-label-text.png)

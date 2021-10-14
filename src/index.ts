@@ -30,12 +30,7 @@ for (let c in config.color) {
   text[c] = createColorText(config.color[c]);
 }
 
-function log(...args: unknown[]) {
-  console.log(...args);
-}
-
 export {
-  log,
   label,
   text,
 };
